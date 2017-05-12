@@ -11,7 +11,7 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 3%;
+  /*padding-top: 3%;*/
 }
 a:link,a:visited{
   font-family: 'Poppins', sans-serif;
@@ -38,10 +38,75 @@ h1{
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
   color:#004F8B;
-
 }
 .vaquitaBack{
   width: 100%;
   opacity: 0.5;
   filter: alpha(opacity=50);
+}
+/*parte de  la  imagen con texto*/
+#imagenTexto{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.textoImagen{
+  position:absolute;
+}
+.primeraSeccionTexto,.segundaSeccionTexto{
+  width: 100%;
+  display: flex;;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+p{
+  width: 45%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  text-align: justify;;
+}
+.vaquita1,.vaquita2{
+  width: 45%:
+}
+.titulo{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  color:#004F8B;
+  display: flex;
+  justify-content: center;
+
+}
+/*parte de Video*/
+#video{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #79C5FF;
+}
+.video{
+  width:560px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+/*formulario*/
+#formulario{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.registro{
+  width: 50%;
+}
+/*footer*/
+footer{
+  background: #004F8B;
+  color:white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10%;
 }
