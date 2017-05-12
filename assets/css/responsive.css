@@ -1,0 +1,8 @@
+@media handheld and (max-width: 20em), screen and (max-width: 30em) {
+  #contenidoTexto{
+    display: none;
+  }
+  footer{
+    background-color: grey !important;
+  }
+}
