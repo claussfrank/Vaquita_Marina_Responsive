@@ -1,12 +1,16 @@
 body {
-  margin: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 header{
+  display: flex;
   width: 100%;
-  height: 20%;
+  height: 8%;
   background-color:#0085B1;
 }
 nav{
+  width: 100%;
   color:white;
   display: flex;
   justify-content: space-around;
@@ -15,15 +19,16 @@ nav{
 }
 a:link,a:visited{
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5em;
+  font-size: .5em;
   color: #004F8B;
+  padding: 2%;
   text-decoration: none;
   display: inline-block;
 }
 a:hover,a:active{
   background-color:#0B4C8F;
   color: white;
-  padding:.5%;
+  padding:2%;
 }
 /*parte de  la  imagen con texto seccion1*/
 #imagen{
@@ -36,7 +41,7 @@ a:hover,a:active{
 h1{
   position:absolute;
   font-family: 'Poppins', sans-serif;
-  font-size: 2em;
+  font-size: 1em;
   color:#004F8B;
 }
 .vaquitaBack{
@@ -48,10 +53,22 @@ h1{
 #imagenTexto{
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .textoImagen{
   position:absolute;
+}
+/*parte de  la  imagenes con texto*/
+
+#contenidoTexto{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.parrafod{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 .primeraSeccionTexto,.segundaSeccionTexto{
   width: 100%;
@@ -70,7 +87,7 @@ p{
 }
 .titulo{
   font-family: 'Poppins', sans-serif;
-  font-size: 2em;
+  font-size: 1em;
   color:#004F8B;
   display: flex;
   justify-content: center;
@@ -84,7 +101,7 @@ p{
   background-color: #79C5FF;
 }
 .video{
-  width:560px;
+  width:80%;
   margin-top: 20%;
   margin-bottom: 20%;
 }
