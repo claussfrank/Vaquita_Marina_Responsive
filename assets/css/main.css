@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+header{
+  width: 100%;
+  height: 20%;
+  background-color:#0085B1;
+}
+nav{
+  color:white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3%;
+}
+a:link,a:visited{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  color: #004F8B;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover,a:active{
+  background-color:#0B4C8F;
+  color: white;
+  padding:.5%;
+}
+/*parte de  la  imagen con texto seccion1*/
+#imagen{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+h1{
+  position:absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  color:#004F8B;
+
+}
+.vaquitaBack{
+  width: 100%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
